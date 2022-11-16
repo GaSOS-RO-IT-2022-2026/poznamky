@@ -82,6 +82,26 @@ RAM a ROM - Operační paměti
 	- PROM Programable Read Only Memory
 	- EPROM Erasable Programmable Read Only Memory
 	- EEPROM Electricaly Erasable Programmable Read Only Memory
+	- FLASH - V Flash Drivech, SSD, SD kartách atd...
+- SRAM - Static RAM
+	- 2 Tranzistory se přepínají navzájem mezi 1 / 0 - Jako klopný obvod
+- DRAM - Dynamic RAM
+	- Kondenzátory
+	- Refresh = Obnovování nabytí kondenzátorů
+	- Jsou pomalejší než SRAM, protože během Refreshu buňky z ní nemohu čist ani do ní psát
+	- Naopak je levnější, kapacitnější a lehčí konstrukčně.
+- Paměťové moduly
+	- Pamětě se lehce ohnuly, takže vznikly tzv. paměťové moduly, které na sobě měli paměťe, a celý modul by se zasunul do PC.
+	- Typy paměťových modulů:
+		- DIP
+		- SIMM
+		- DIMM memory - Používají se v PC
+		- SODIMM - Menší než DIMM (Asi 2/3), používají se v notebooku
+- Cache
+	- Vyrovnávající, vysoce rychlá paměť, která se umístňuje mezi 2 zařízení s jinou rychlostí čtení/psaní.
+	- Třeba mezi CPU a RAM
+
+Moduly rozeznáváme podle buďto značky anebo podle počtu vývodů a zobáčků na straně modulu paměťi.
 
 ---
 
