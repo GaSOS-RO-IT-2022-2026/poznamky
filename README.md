@@ -1,10 +1,8 @@
-# poznamky
+## POZNÁMKY
 
-## Hardware
-[[HW]]
+## [Hardware](hw/HW.md)
 
-## Operační systémy
-[[OPS]]
+## [Operační systémy](ops/OPS)
 
-## Sítě
-[[POS]]
+## [Sítě](pos/POS)
+
