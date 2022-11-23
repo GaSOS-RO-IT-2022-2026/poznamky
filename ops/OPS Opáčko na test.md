@@ -35,7 +35,6 @@
 - Uživatelské rozhraní (UI)
 - Multitasking (Procesy a Úlohy)
 - Virtualizace
-- **Funkce jsou možná trochu jiné, tohle je pouze jak jsem si je já zapamatoval**
 
 ---
 

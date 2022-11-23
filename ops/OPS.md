@@ -45,26 +45,29 @@ Plovoucí license - Pomocí licenšního serveru se může spustit jenom určit�
 Přípony souborů systému windows
 - 8 + . + 3 => 8 písmen jména soubru, 3 písmena přípony
 
-Funkce OS
-- Memory Management
-- Multitasking
-- UI (GUI, TUI)
-- User Account Management
+### PC
+- Windows
+- MacOS
+- Linux
+- BSD
+- UNIX
 
-Mobilní OS
+![[NOS Struktura.png]]
+
+### Mobile
 - Android
 - iOS
-- BlueberryOS
-- HarmonyOS
+- Blackberry OS
+- Harmony OS
 
-OS Rings
-- Hardware
-- Firmware BIOS/UEFI
-- HAL
-- KERNEL/CORE
-- API
-- UI (API, APPs)
-- APPs
+### Funkce OS
+- Správa paměti
+- Správa úložiště?
+- Správa uživatelských účtů
+- Správa zařízení (a driverů)
+- Uživatelské rozhraní (UI)
+- Multitasking (Procesy a Úlohy)
+- Virtualizace
 
 ---
 
@@ -111,12 +114,20 @@ OS Rings
 
 ---
 
+## Zabezpečení OS
 
+- Cookies - Na webu slouží k ukládání dat v prohlížeči. Slouží například pro ukládání přihlášení na stránkách. Také se ale dají použít pro sledování uživatele.
+- Hesla
+	- Hesla by měli být pestré - Obsahovat velká, malé písmena, čísla a znaky (@, #, $, ...)
+	- Hesla by se neměli používat opakovaně na více stránkách, měly by být unikátní. Jenže problém je potom si je zapamatovat - na to lze použít password manager.
+	- Heslo o délce 4 s velkími, malími písmeny a čísly má kolem 15 miliómů možných kombinací.
+	- S novými výkonými GPU se zrychlylo crackování hesel pomocí Bruteforcu. Hesla by se měli měnit každý měsíc nebo 2, aby bylo těžší je uhádnout.
 
 ---
 
 ### Personal Notes
-In windows `con:` is the console.
+In windows `con:` is the console device.
 Eg: `copy con: filename.txt`
 `Ctrl + Z` = EOF
 
+![[kebab.mp4]]

@@ -37,34 +37,35 @@ Typy komponentů:
 - Integrované (Dedikované)
 - Externí - Připojené pomocí USB nebo kabelu
 
-Komponenty:
-- Základní deska - Nacházejí se na ní všechny ostatní komponenty
-	- Nachází se na ní 2 integrované obvody: North Bridge a South Bridge
-	- North Bridge se nachází poblíž procesoru. Řídí rychlé periferie: CPU, RAM
-	- South Bridge se nachází poblíž konektorů a řídí pomalé periférie: Sound Card, Network Card, Keyboard, **Hard disky a SSD**, CD Mech., atd...
-	- Také se na ní nachází BIOS + CMOS nebo UEFI (Firmware), PCIE sloty, AGP slot pro grafickou kartu, slot na procesor, porty na externí periférie a ethernet, DIMM Slot pro paměť.
-	- **From Factor** - Určuje velikost desky, musí se shodovat s form factorem skříně.
-- CPU (Central Processing Unit) Procesor
-	- Integrovaný obvod - Skládá se z transistorů a polovodičů
-	- Strašně se zahřívají - Teplo jim škodí - Je potřeba je chladit
-	- Intel jsou lepší v desetiných číslech
-	- AMD jsou výkonější v operacích s celými čísly.
-- RAM (Random Access Memory) Paměť
-- GPU (Graphical Processing Unit) Grafická Karta
-- Skříň
-	- Na výšku (Tower)
-		- Mini Tower
-		- Midi Tower
-		- Big Tower
-	- Ležmo (Desktop)
-		- Desktop
-		- Mini Desktop
-		- Slim Line
-	- **Chasis**
-		- Side panel / Deska
-		- Chasis
+## Komponenty:
+### Základní deska
+- Nacházejí se na ní všechny ostatní komponenty
+- Nachází se na ní 2 integrované obvody: North Bridge a South Bridge
+- North Bridge se nachází poblíž procesoru. Řídí rychlé periferie: CPU, RAM
+- South Bridge se nachází poblíž konektorů a řídí pomalé periférie: Sound Card, Network Card, Keyboard, **Hard disky a SSD**, CD Mech., atd...
+- Také se na ní nachází BIOS + CMOS nebo UEFI (Firmware), PCIE sloty, AGP slot pro grafickou kartu, slot na procesor, porty na externí periférie a ethernet, DIMM Slot pro paměť.
+- **From Factor** - Určuje velikost desky, musí se shodovat s form factorem skříně.
+### CPU (Central Processing Unit) Procesor
+- Integrovaný obvod - Skládá se z transistorů a polovodičů
+- Strašně se zahřívají - Teplo jim škodí - Je potřeba je chladit
+- Intel jsou lepší v desetiných číslech
+- AMD jsou výkonější v operacích s celými čísly.
+### RAM (Random Access Memory) Paměť
+### GPU (Graphical Processing Unit) Grafická Karta
+### Skříň
+- Na výšku (Tower)
+	- Mini Tower
+	- Midi Tower
+	- Big Tower
+- Ležmo (Desktop)
+	- Desktop
+	- Mini Desktop
+	- Slim Line
+### **Chasis**
+- Side panel / Deska
+- Chasis
 
-Chlazení:
+### Chlazení:
 - Vzduchem
 	- Aktivní - Nucené chlazení
 	- Pasivní - Přirozené
@@ -75,7 +76,7 @@ Chlazení:
 - Heat Pipe -> Měděná trubka odvádí teplo k chladiči nebo větráku.
 	- Využití v notebooku
 
-RAM a ROM - Operační paměti
+### RAM a ROM - Operační paměti
 - Random Access Memory
 - Read Only Memory
 	- ROM Read Only Memory
@@ -97,11 +98,18 @@ RAM a ROM - Operační paměti
 		- SIMM
 		- DIMM memory - Používají se v PC
 		- SODIMM - Menší než DIMM (Asi 2/3), používají se v notebooku
+	- Moduly rozeznáváme podle buďto značky anebo podle počtu vývodů a zobáčků na straně modulu paměťi.
 - Cache
-	- Vyrovnávající, vysoce rychlá paměť, která se umístňuje mezi 2 zařízení s jinou rychlostí čtení/psaní.
+	- Vyrovnávající, vysoce rychlá paměť, která se umístňuje mezi 2 zařízení s jinou rychlostí čtení/psaní pro vyrovnání rychlosti.
 	- Třeba mezi CPU a RAM
-
-Moduly rozeznáváme podle buďto značky anebo podle počtu vývodů a zobáčků na straně modulu paměťi.
+	- Typy Cache:
+		- L1 Cache - Integrovaná v CPU
+		- L2 Cache - Dřive na základové desce, dnes v CPU
+		- L3 Cache - Používá se v serverech.
+- Opravování chyb v paměti
+- Nonparity => Chyby nekontroluje ani neopravuje
+- Parity => V paměti je 8bitů pro data a 1 bit pro kontrolu chyb.
+- ECC => Dokáže detektovat několika bitové chyby ale opravit jen 1 bitové.
 
 ---
 
@@ -111,4 +119,4 @@ Moduly rozeznáváme podle buďto značky anebo podle počtu vývodů a zobáčk
 
 ## Personal Notes
 
-![[saddam-hussein-adobada.mp4]]
+![[kebab.mp4]]
