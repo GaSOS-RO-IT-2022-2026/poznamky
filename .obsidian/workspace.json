@@ -1,0 +1,157 @@
+{
+  "main": {
+    "id": "87e1380885572967",
+    "type": "split",
+    "children": [
+      {
+        "id": "f8831acffb7bb041",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bba465b83c8a4e33",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "19c92b949b8bbe21",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c7ed90e1b3686974",
+    "type": "split",
+    "children": [
+      {
+        "id": "02de200a3e4843b6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6b522951e8beac42",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "80778f8ff8e8b2aa",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "245074a820046077",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ddc79911006eb771",
+    "type": "split",
+    "children": [
+      {
+        "id": "6362be9e2abe59e7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8e6557bb2d6a278f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5d02a03072dc0ed7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "46daf97b528fc5b5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "60cfeb1d307f1307",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "19c92b949b8bbe21",
+  "lastOpenFiles": [
+    "README.md",
+    "cj/CJ.md",
+    "pos/README.md",
+    "pos/POS.md",
+    "cj/README.md",
+    "ops/README.md",
+    "ops/OS Timeline.md",
+    "ops/saddam-hussein-adobada.mp4",
+    "hw/HW.md",
+    "hw/ATXpowerPinout.png"
+  ]
+}
